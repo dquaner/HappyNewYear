@@ -1,0 +1,530 @@
+canvas { 
+	height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block; } 
+    
+.index_bg{
+    height: 100%;
+    width: 100%;
+    background:url('../images/beijing1.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+}
+
+.music{
+	height:40px;
+	width:40px;
+	right:8%;
+	top:5%;
+    background:url('../images/yinyue.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    text-align:right;
+}
+
+.music1{
+	height:40px;
+	width:40px;
+	right:8%;
+	top:5%;
+    background:url('../images/yinyue2.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    text-align:right;
+}
+
+.start{
+	height:80px;
+	width:80px;
+	right:12%;
+	bottom:8%;
+	background:url('../images/kaishi.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    text-align:right;
+}
+
+.start1{
+	height:80px;
+	width:80px;
+	right:12%;
+	bottom:8%;
+	background:url('../images/kaishi1.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    text-align:right;
+}
+
+.play_bg{
+    height: 100%;
+    width: 100%;
+    background:url('../images/beijing3.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+
+.score{
+	height:40px;
+	width:200px;
+	left:5%;
+	top:5%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    text-align:left;
+    font-size: 2em;
+	color: #ff3b3b;
+}
+
+.present{
+    height: 100px;
+    width: 275px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background:url('../images/liwu.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.count{
+    height: 100px;
+    width: 80px;
+    margin: 50px auto;
+    background:url('../images/3.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.count1{
+    height: 100px;
+    width: 80px;
+    margin: 50px auto;
+    background:url('../images/2.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.count2{
+    height: 100px;
+    width: 40px;
+    margin: 50px auto;
+    background:url('../images/1.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.count3{
+    height: 100px;
+    width: 160px;
+    margin: 50px auto;
+    background:url('../images/go.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.pp{
+    width: 100%;
+    bottom: 50px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+.people{
+    height: 200px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background:url('../images/l0.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.people1{
+	height: 200px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background:url('../images/l1.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.lg{
+    height: 200px;
+    width: 150px;
+    left: 200px;
+    background:url('../images/l3.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.lg1{
+	height: 200px;
+    width: 150px;
+    background:url('../images/l4.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.dl1{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:520px;
+    background:url('../images/p1.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+.dl2{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p2.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+
+.dl3{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p3.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+.dl4{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p4.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+.dl5{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p5.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+
+.dl6{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p6.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+.dl7{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p7.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+.dl8{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p8.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+
+.dl9{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p9.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+.dl10{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p10.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+.dl11{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p11.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+
+.dl12{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p12.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+.dl13{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p13.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+.dl14{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p14.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+
+.dl15{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p15.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+.dl16{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p16.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+.dl17{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p17.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+
+.dl18{
+	height:50px;
+	width:50px;
+	left:10px;
+	top:0px;
+    background:url('../images/p18.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+.btn{
+	height: 50px;
+    width: 250px;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: none;
+}
+
+.rbtn{
+	height: 50px;
+    width: 100px;
+    background:url('../images/br0.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+    position:absolute;
+}
+
+.rbtn1{
+	height: 50px;
+    width: 100px;
+    background:url('../images/br1.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+    position:absolute;
+}
+
+.bbtn{
+	height: 50px;
+    width: 100px;
+    margin-left: 150px;
+    background:url('../images/bb0.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.bbtn1{
+	height: 50px;
+    width: 100px;
+    margin-left: 150px;
+    background:url('../images/bb1.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+.index_bg{
+    height: 100%;
+    width: 100%;
+    background:url('../images/beijing2.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+}
+
+.play_bg{
+    height: 100%;
+    width: 100%;
+    background:url('../images/beijing4.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+
+.music{
+	height:35px;
+	width:35px;
+	right:5%;
+	top:3%;
+    background:url('../images/yinyue.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    text-align:right;
+}
+
+.music1{
+	height:35px;
+	width:35px;
+	right:5%;
+	top:3%;
+    background:url('../images/yinyue2.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    text-align:right;
+}
+
+.score{
+	height:40px;
+	width:200px;
+	left:5%;
+	top:3%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    text-align:left;
+    font-size: 2em;
+	color: #ff3b3b;
+}
+
+}
+
