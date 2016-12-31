@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="css/site.css">
+<link rel="stylesheet" type="text/css" href="css/mycss.css">
+<script type="text/javascript" src="Script/script.js"></script>
+<title>Happy New Year</title>
+
+<audio id="myaudio" loop="loop" preload="auto" autoplay="autoplay">
+<source src="images/lala.mp3" type="audio/mp3" />
+</audio>
+
+</head>
+<body onload="snow()">
+<div class="index_bg">
+<div class="music" onclick="swap_music(this)">
+</div>
+<div class="start" onmouseover="onStart(this)" onmouseout="outStart(this)" onclick="window.location.href='play.html';">
+</div>
+</div>
+<canvas id="christmasCanvas" style="top: 0px; left: 0px; z-index: 5000; position: fixed; pointer-events: none;" ></canvas>
+</body>
+</html>
